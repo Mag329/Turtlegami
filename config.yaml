@@ -8,7 +8,7 @@ engine:
   notification_time: 1800
   pet_tasks_time: 300
   sadness_index: 0.3
-  time_of_last_check: '2024-05-28T23:40:02.338836'
+  time_of_last_check: '2024-08-26T00:08:04.002177'
 food:
   collect_index: 2
   hunger_index: 0.1
@@ -51,7 +51,7 @@ games:
 imgs:
   font_path: fonts/Aqum.ttf
   font_size_eggs: 50
-  font_size_info: 21
+  font_size_info: 30
   path_backgrounds_folder: imgs/backgrounds/
   path_eggs_folder: imgs/eggs/
   path_panels_folder: imgs/panels/

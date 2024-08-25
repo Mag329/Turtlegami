@@ -274,28 +274,28 @@ async def create_info_image(user_id):
 
             draw.text(
                 (100, panel_img.height / 2),
-                str(round(pet.health, 1)),
+                str(int(pet.health)),
                 (255, 255, 255),
                 font=font,
                 anchor="mm",
             )
             draw.text(
                 (220, panel_img.height / 2),
-                str(round(pet.satiety, 1)),
+                str(int(pet.satiety)),
                 (255, 255, 255),
                 font=font,
                 anchor="mm",
             )
             draw.text(
                 (338, panel_img.height / 2),
-                str(round(pet.happiness, 1)),
+                str(int(pet.happiness)),
                 (255, 255, 255),
                 font=font,
                 anchor="mm",
             )
             draw.text(
                 (450, panel_img.height / 2),
-                str(round(pet.sleep, 1)),
+                str(int(pet.sleep)),
                 (255, 255, 255),
                 font=font,
                 anchor="mm",

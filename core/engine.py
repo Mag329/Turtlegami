@@ -281,13 +281,13 @@ async def get_age(id):
             if days > 0:
                 agreed_word = morph.parse("день")[0].make_agree_with_number(days).word
                 time_parts.append(f"{days} {agreed_word}")
-            if hours > 0:
+            if days == 0 and hours > 0:
                 agreed_word = morph.parse("час")[0].make_agree_with_number(hours).word
                 time_parts.append(f"{hours} {agreed_word}")
-            if minutes > 0:
+            if hours == 0 and minutes > 0:
                 agreed_word = morph.parse("минута")[0].make_agree_with_number(minutes).word
                 time_parts.append(f"{minutes} {agreed_word}")
-            if seconds > 0:
+            if minutes == 0 and seconds > 0:
                 agreed_word = morph.parse("секунда")[0].make_agree_with_number(seconds).word
                 time_parts.append(f"{seconds} {agreed_word}")
 

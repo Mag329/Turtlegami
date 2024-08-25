@@ -399,13 +399,13 @@ async def format_pet_info(user_id):
                     # f"{age[0]} {agreed_word}",
                     age,
                     health_state,
-                    round(pet.health, 1),
+                    int(pet.health),
                     satiety_state,
-                    round(pet.satiety, 1),
+                    int(pet.satiety),
                     happiness_state,
-                    round(pet.happiness, 1),
+                    int(pet.happiness),
                     sleep_state,
-                    round(pet.sleep, 1),
+                    int(pet.sleep),
                 )
                 return True, text
             else:
